@@ -77,5 +77,6 @@
             @media (max-width:565px){ font-size: 1.1rem;  width: 55%;}
         }
     }
-    #watermark{position: absolute; bottom: 4%; opacity: .7; text-align: center;}
+    #watermark{margin: 3rem auto 1rem auto; text-align: center; opacity: .7;
+                @media(max-width:320px){margin: 1rem auto;}}
 }
