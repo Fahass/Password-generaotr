@@ -159,9 +159,14 @@
 }
 
 .wrapper #watermark {
-  position: absolute;
-  bottom: 4%;
-  opacity: .7;
+  margin: 3rem auto 1rem auto;
   text-align: center;
+  opacity: .7;
+}
+
+@media (max-width: 320px) {
+  .wrapper #watermark {
+    margin: 1rem auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
